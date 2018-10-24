@@ -36,14 +36,14 @@ namespace Lab11
             Movie movie19 = new Movie("Pocahontas", ANIMATED);
             Movie movie20 = new Movie("Aladdin", ANIMATED);
 
-            List<string> movieTitles = new List<string> { };
+            List<string> alphabetizedTitles = new List<string> { };
 
             List<Movie> movieList = new List<Movie> {movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8,
                 movie9, movie10, movie11, movie12, movie13, movie14, movie15, movie16, movie17, movie18, movie19, movie20};
 
             Console.WriteLine("Welcome to the Movie List Application!");
-            AlphabetizeTitles(movieList, movieTitles);
-            MainMenu(movieList, movieTitles);
+            AlphabetizeTitles(movieList, alphabetizedTitles);
+            MainMenu(movieList, alphabetizedTitles);
         }
         public static void MainMenu(List<Movie> movieList, List<string> movieTitles)
         {

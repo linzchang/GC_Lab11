@@ -8,8 +8,8 @@ namespace Lab11
 {
     class Movie
     {
-        private string Title { get; set; }
-        private string Category { get; set; }
+        private string Title;
+        private string Category;
 
         public Movie (string title, string category)
         {
